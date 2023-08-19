@@ -21,7 +21,7 @@ export default function NewGameForm({ addGame }) {
   return (
     <form onSubmit={handleSubmit}>
       <TextInput id="title" label={"Título"} value={title} setValue={setTitle} />
-      <TextInput id="cover" label={"Capa"} value={cover} setValue={setCover} />
+      <TextInput id="cover" label={"Capa (URL da imagem)"} value={cover} setValue={setCover} />
       <button>Adicionar</button>
     </form>
   );
